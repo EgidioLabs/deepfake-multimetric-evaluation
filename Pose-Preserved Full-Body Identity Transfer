@@ -1,0 +1,134 @@
+#PROMPT PADRONIZADO - UTILIZADO NO NANOBANANA PRO - PARA O RESULTADO R6
+
+
+## Full-Body Character Replacement Pipeline
+
+## Prompt
+
+```text
+Analyze both input images carefully before generating the result.
+
+imagem_0 = ORIGINAL (scene structure and pose base)
+
+imagem_1 = MODELO (complete character source)
+
+TASK
+
+Perform a complete full-body character replacement.
+
+The goal is to replace the entire person in imagem_0 with the person from imagem_1, transferring all visual characteristics of the character from imagem_1 while preserving the scene structure from imagem_0.
+
+The final result must show the person from imagem_1 naturally occupying the same pose, position and camera perspective originally present in imagem_0.
+
+STEP 1 — IMAGE ANALYSIS
+
+First analyze imagem_1 (MODELO) and extract all character-defining attributes including:
+
+- full facial identity and biometrics
+- face shape and bone structure
+- eyes, eyebrows, nose, lips and facial proportions
+- skin tone, skin texture and skin marks
+- hair color, hairstyle, density and texture
+- clothing design, garments and textile appearance
+- accessories such as jewelry, earrings, necklaces, watches or rings
+- tattoos, piercings, scars or other defining body markers
+- visible makeup and stylistic features
+- exposed body characteristics and proportions
+
+Then analyze imagem_0 (ORIGINAL) and identify the scene structure that must be preserved:
+
+- body pose and orientation
+- camera perspective and angle
+- framing and focal length
+- subject position in the scene
+- background and environment
+- lighting direction and shadow behavior
+- color temperature and ambient light
+- depth of field and focus characteristics
+- overall scene composition
+
+STEP 2 — ATTRIBUTE TRANSFER
+
+Transfer from imagem_1 (MODELO):
+
+- complete facial identity
+- hairstyle and hair appearance
+- skin characteristics and tone
+- full clothing and garments
+- all accessories and ornaments
+- tattoos, piercings and body marks
+- stylistic elements such as makeup or fashion details
+- the complete visual appearance of the character
+
+Preserve from imagem_0 (ORIGINAL):
+
+- pose and body orientation
+- camera perspective and framing
+- spatial placement of the subject
+- lighting conditions and shadows
+- environmental interaction
+- background and scene composition
+
+STEP 3 — REPLACEMENT RULES
+
+Replace the entire person present in imagem_0 with the character from imagem_1.
+
+The generated subject must reproduce the appearance of imagem_1 including:
+
+- face
+- hair
+- clothing
+- accessories
+- tattoos and piercings
+- stylistic and visual traits
+
+The subject must appear naturally integrated into the pose and scene originally present in imagem_0.
+
+Do not modify the environment or background.
+
+STEP 4 — INTEGRATION REQUIREMENTS
+
+Ensure:
+
+- correct adaptation of the character from imagem_1 into the pose of imagem_0
+- anatomically correct body placement
+- natural alignment of head, neck and shoulders
+- realistic clothing behavior following the pose
+- consistent interaction between clothing and body posture
+- seamless integration between the subject and the environment
+- proper scaling between subject and scene
+
+STEP 5 — LIGHTING AND REALISM
+
+Adapt the transferred character to the lighting conditions of imagem_0:
+
+- same light direction
+- same shadow behavior
+- same color temperature
+- coherent exposure and contrast
+- realistic highlights on skin, hair and clothing
+
+Maintain photorealistic detail including:
+
+- natural skin texture and pores
+- realistic hair strands
+- textile microtexture in clothing
+- authentic accessory materials
+
+STEP 6 — ERROR PREVENTION
+
+Avoid:
+
+- facial distortion
+- pose alteration
+- warped anatomy
+- accessory disappearance
+- clothing deformation
+- lighting inconsistency
+- identity blending between subjects
+- background modification
+
+FINAL GOAL
+
+Generate a photorealistic full-body character replacement where the person from imagem_1 appears naturally in the pose, perspective and environment originally present in imagem_0, carrying all visual characterist.
+```
