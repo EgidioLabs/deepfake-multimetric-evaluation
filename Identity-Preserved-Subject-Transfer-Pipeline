@@ -1,0 +1,154 @@
+#PROMPT PADRONIZADO - UTILIZADO NO NANOBANANA PRO - PARA O RESULTADO R4 e R5
+
+## Identity-Preserved Full-Body Transfer 
+
+## Prompt
+
+```text
+Analyze both input images carefully before generating the result.
+
+imagem_0 = ORIGINAL (structural and scene base)
+
+imagem_1 = MODELO (identity source)
+
+TASK
+
+Perform a full body subject identity transfer using imagem_1 as the identity source and imagem_0 as the structural base.
+
+The objective is to replace the person in imagem_0 with the person from imagem_1 while preserving all structural, material and environmental elements from imagem_0.
+
+STEP 1 — IMAGE ANALYSIS
+
+First analyze imagem_1 (MODELO) and extract all transferable identity attributes including:
+
+- facial identity and biometrics
+- face shape and bone structure
+- eyes, eyebrows, nose, lips and facial proportions
+- skin tone, skin texture, pores and natural skin marks
+- hair color, hair texture, density and hairstyle
+- visible unique markers such as freckles, moles, scars, piercings or other defining features
+- age appearance and facial characteristics
+- visible exposed-skin characteristics
+
+Then analyze imagem_0 (ORIGINAL) and identify all structural elements that must remain unchanged:
+
+- body pose and orientation
+- body proportions and posture
+- head angle and camera perspective
+- clothing design and garment structure
+- fabric folds and textile behavior
+- accessories, props and jewelry
+- hand position, arm position and body placement
+- background and environment
+- framing and focal length
+- lighting direction and shadow behavior
+- color temperature and ambient light
+- depth of field and focus characteristics
+- overall scene composition
+
+STEP 2 — ATTRIBUTE MAPPING
+
+Transfer from imagem_1 (MODELO):
+
+- complete recognizable identity
+- facial geometry and identity defining features
+- hair appearance and visible traits
+- natural skin characteristics and facial micro details
+
+Preserve from imagem_0 (ORIGINAL):
+
+- body pose and body orientation
+- clothing and garment details
+- accessories and props
+- hand placement and body structure
+- background and full scene composition
+- lighting, shadows and reflections
+- camera perspective and framing
+
+STEP 3 — REPLACEMENT RULES
+
+Replace only the person’s biological identity in imagem_0 with the identity from imagem_1.
+
+Do not modify:
+
+- pose
+- clothing
+- accessories
+- background
+- lighting
+- camera framing
+- perspective
+- scene composition
+
+The person from imagem_1 must appear naturally integrated into the exact pose, clothing and environment of imagem_0.
+
+STEP 4 — INTEGRATION REQUIREMENTS
+
+Ensure:
+
+- correct head pose adaptation
+- consistent face to body scale
+- natural neck and shoulder transition
+- seamless blending between face, hair and body
+- consistent skin tone adaptation between transferred face and visible body areas
+- anatomically correct facial placement
+- realistic hair behavior according to pose and lighting
+- preserved interaction between clothing and body
+
+STEP 5 — LIGHTING AND REALISM
+
+Match the transferred identity with the lighting conditions of imagem_0:
+
+- same light direction
+- same shadow logic
+- same color temperature
+- same ambient lighting
+- realistic highlights on skin and hair
+- coherent contrast and exposure
+
+Maintain:
+
+- photorealistic skin texture
+- visible pores and micro skin detail
+- natural hair strands
+- fabric microtexture
+- natural facial imperfections
+- high detail without oversmoothing
+
+STEP 6 — ERROR PREVENTION
+
+Avoid:
+
+- identity drift
+- face distortion
+- stretched facial features
+- misaligned eyes
+- warped jawline
+- unnatural neck transitions
+- mismatched skin color
+- double face artifacts
+- hair smearing
+- clothing deformation
+- background changes
+- pose deviation
+
+FINAL GOAL
+
+Generate a photorealistic full body identity replacement where the person from imagem_1 appears naturally in the exact pose, clothing, lighting and environment of imagem_0.
+
+MODEL PRIORITIES
+
+Identity fidelity: very high
+
+Structure preservation: very high
+
+Clothing preservation: strict
+
+Background preservation: strict
+
+Pose preservation: strict
+
+Texture fidelity: maximum
+
+Photorealism priority: maximum
+```
