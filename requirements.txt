@@ -1,0 +1,10 @@
+deepface
+opencv-python-headless
+torch
+torchvision
+lpips
+numpy
+scikit-image
+matplotlib
+pandas
+tqdm
